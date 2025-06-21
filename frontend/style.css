@@ -1,0 +1,41 @@
+body {
+  font-family: sans-serif;
+  background: #f4f6fa;
+  padding: 20px;
+  color: #333;
+}
+form, #entries {
+  max-width: 500px;
+  margin: auto;
+  margin-bottom: 20px;
+  padding: 15px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+input, textarea, button {
+  width: 100%;
+  margin: 5px 0;
+  padding: 10px;
+}
+button {
+  background: #1d4ed8;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+button:hover {
+  background: #1e3a8a;
+}
+.entry {
+  border-left: 5px solid #3b82f6;
+  padding: 10px;
+  margin: 10px 0;
+}
+.entry button {
+  margin-right: 5px;
+  background: #475569;
+}
+.entry button:hover {
+  background: #334155;
+}
