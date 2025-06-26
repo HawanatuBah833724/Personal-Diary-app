@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Diary App</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>📝 My Secure Diary</h1>
+
+  <form id="register-form">
+    <input id="register-username" placeholder="Register username" required />
+    <button type="submit">Register</button>
+  </form>
+
+  <form id="login-form">
+    <input id="login-username" placeholder="Login username" required />
+    <button type="submit">Login</button>
+  </form>
+
+  <button id="logout-btn" style="display:none">Logout</button>
+
+  <form id="entry-form" style="display:none">
+    <input id="title" placeholder="Title" required />
+    <textarea id="content" placeholder="Write here..." required></textarea>
+    <button type="submit">Save Entry</button>
+  </form>
+
+  <div id="entries"></div>
+  <div id="prompt" style="margin-top: 20px; text-align:center;"></div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
+
+
+
+
+
+

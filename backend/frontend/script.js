@@ -1,4 +1,4 @@
-const API = 'https://my-personal-diary.onrender.com/';
+const API = 'http://localhost:4000';
 let currentUser = null;
 
 const $ = id => document.getElementById(id);
@@ -129,3 +129,6 @@ function exportPDF(title, content) {
   doc.text(content, 10, 20);
   doc.save(`${title}.pdf`);
 }
+
+
+
